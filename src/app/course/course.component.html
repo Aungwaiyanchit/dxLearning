@@ -1,0 +1,23 @@
+<div class="mt-5 max-w-[1200px] m-auto">
+    <div class="flex justify-center relative mt-10">
+        <input 
+        class="border border-gray-300 rounded-3xl px-3 w-[50%] py-3 z-0 focus:outline-none"
+        placeholder="Search courses"
+        />
+        <button class="bg-[#fa2b2b] text-white w-[220px] rounded-3xl py-[14px] top-0 z-[1] absolute right-[20%]">Search</button>
+    </div>
+    <h2 class="font-bold text-2xl mt-5">Courses</h2>
+    <div class="flex gap-10 mt-5">
+        <div *ngFor="let course of courses">
+            <div class="">
+                <img 
+                src={{course.img_url}} 
+                class="w-[240px] h-[140px] cursor-pointer object-cover"
+                [routerLink]="['/courses/', course.id]" 
+                />
+                <h1 class="font-bold mt-2">{{course.title}}</h1>
+                <span>{{course.instructor_name}}</span>
+            </div>
+        </div>
+    </div>
+</div>

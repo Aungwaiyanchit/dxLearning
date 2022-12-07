@@ -1,0 +1,42 @@
+ [
+        {
+            "id": 1,
+            "title": "React for beginner",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras vitae risus libero. Morbi pretium posuere erat, nec varius leo pharetra vel. Vestibulum interdum orci est, hendrerit lacinia libero auctor sit amet.",
+            "instructor_name": "Mr.Adan",
+            "img_url": "assets/images/reactjs.png",
+            "student_count": 23000
+        },
+        {
+            "id": 2,
+            "title": "Python for beginner",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras vitae risus libero. Morbi pretium posuere erat, nec varius leo pharetra vel. Vestibulum interdum orci est, hendrerit lacinia libero auctor sit amet.",
+            "img_url": "assets/images/python.jpg",
+            "instructor_name": "Luci",
+            "student_count": 1340
+        },
+        {
+            "id": 3,
+            "title": "Angular for beginner",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras vitae risus libero. Morbi pretium posuere erat, nec varius leo pharetra vel. Vestibulum interdum orci est, hendrerit lacinia libero auctor sit amet.",
+            "img_url": "assets/images/angular.png",
+            "instructor_name": "Jaded",
+            "student_count": 1293
+        },
+        {
+            "id": 4,
+            "title": "Backend development with flask",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras vitae risus libero. Morbi pretium posuere erat, nec varius leo pharetra vel. Vestibulum interdum orci est, hendrerit lacinia libero auctor sit amet.",
+            "img_url": "assets/images/backend.png",
+            "instructor_name": "Michale",
+            "student_count": 14993
+        },
+        {
+            "id": 5,
+            "title": "Data Science with python",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras vitae risus libero. Morbi pretium posuere erat, nec varius leo pharetra vel. Vestibulum interdum orci est, hendrerit lacinia libero auctor sit amet.",
+            "img_url": "assets/images/data.jpg",
+            "instructor_name": "Jordan",
+            "student_count": 20000
+        }
+ ]
